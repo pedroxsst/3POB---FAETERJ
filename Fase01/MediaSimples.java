@@ -15,10 +15,12 @@ package fase01;
 import java.util.Scanner;
 import java.text.DecimalFormat;
 
-public class Calculadora{
-    public static void main(String[] args) {
+public class Calculadora
+{
+    public static void main(String[] args)
+    {
         Scanner sc = new Scanner(System.in);
-        DecimalFormat df = new DecimalFormat("#.0");
+        DecimalFormat df = new DecimalFormat("0.00");
 
         System.out.print("Digite a nota da av1: ");
         double av1 = sc.nextDouble();
