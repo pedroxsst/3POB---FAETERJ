@@ -12,7 +12,7 @@ Exemplo de Entrada: 7.5, 8.0, 6.5 Saída esperada: Média: 7.33
 
 package fase01;
 
-import java.util.Scanner;
+import Java.util.Scanner;
 import java.text.DecimalFormat;
 
 public class Calculadora
