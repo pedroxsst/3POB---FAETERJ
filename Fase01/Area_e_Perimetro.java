@@ -13,8 +13,6 @@ Exemplo de Entrada: Base: 5.0, Altura: 3.0 Saída esperada:
 - Perímetro: 16.0
 -----------------------------------------------------------------------------*/
 
-package fase01;
-
 import java.util.Scanner;
 import java.text.DecimalFormat;
 

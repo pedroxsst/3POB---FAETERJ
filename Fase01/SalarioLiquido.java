@@ -13,7 +13,6 @@ Salário Bruto: R$ 8000.00, Salário Líquido: R$ 7200.00
 
 -----------------------------------------------------------------------------*/
 
-package fase01;
 
 import java.util.Scanner;
 import java.text.DecimalFormat;

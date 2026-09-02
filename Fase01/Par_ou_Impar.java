@@ -4,7 +4,6 @@ se ele é par ou ímpar.
 
 Conceitos: Operador módulo (%) e estrutura if-else simples.
 -----------------------------------------------------------------------------*/
-package fase01;
 
 import java.util.Scanner;
 

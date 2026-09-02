@@ -9,7 +9,6 @@ Conceitos: Divisão inteira (/) e operador de resto da divisão (%).
 Exemplo de Entrada: 3665 Saída esperada: 1 hora(s), 1 minuto(s) e 5 segundo(s)
  */
 
-package fase01;
 
 import java.util.Scanner;
 

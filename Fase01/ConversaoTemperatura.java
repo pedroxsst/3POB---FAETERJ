@@ -9,7 +9,7 @@ formatação de saída.
 
 Exemplo de Entrada: 25.0  Saída esperada: 77
 -----------------------------------------------------------------------------*/
-package fase01;
+
 
 import java.util.Scanner;
 import java.text.DecimalFormat;
