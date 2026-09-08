@@ -1,3 +1,4 @@
+package Lista01.Lista02;
 /*
 Classificação de Triângulos
 

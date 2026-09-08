@@ -26,5 +26,6 @@ public class ConversorTempo
         int segundos = tempoSegundos % 60;
 
         System.out.println(horas + " hora(s), " + minutos + " minuto(s) e " + segundos + " segundo(s)");
+        input.close();
     }
 }

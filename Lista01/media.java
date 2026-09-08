@@ -14,7 +14,7 @@ Exemplo de Entrada: 7.5, 8.0, 6.5 Saída esperada: Média: 7.33
 import java.util.Scanner;
 import java.text.DecimalFormat;
 
-public class Calculadora
+public class media
 {
     public static void main(String[] args)
     {

@@ -1,3 +1,4 @@
+package Lista03;
 /*-----------------------------------------------------------------------------
 Exercício 2: Somatório e Média até Flag de Parada (while)
 

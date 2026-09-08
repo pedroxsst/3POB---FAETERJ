@@ -1,3 +1,4 @@
+package Lista03;
 /*-----------------------------------------------------------------------------
 Exercício 3: Validação de Entrada com Senha (do-while ou while)
 

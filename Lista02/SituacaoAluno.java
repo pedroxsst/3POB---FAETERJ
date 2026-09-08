@@ -1,3 +1,4 @@
+package Lista01.Lista02;
 /*-----------------------------------------------------------------------------
 Situação do Aluno (Aprovado, Recuperação ou Reprovado)
 

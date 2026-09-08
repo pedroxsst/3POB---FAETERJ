@@ -1,3 +1,4 @@
+package Lista01.Lista02;
 /*
 O Maior de Três Números
 

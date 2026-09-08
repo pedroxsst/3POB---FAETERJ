@@ -1,3 +1,4 @@
+package Lista03;
 /*
 Exercício 5: Cálculo do Fatorial de um Número (for ou while)
 

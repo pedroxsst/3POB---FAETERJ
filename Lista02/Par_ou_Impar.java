@@ -1,3 +1,4 @@
+package Lista01.Lista02;
 /*-----------------------------------------------------------------------------
 Escreva um programa em Java que leia um número inteiro e informe 
 se ele é par ou ímpar.
