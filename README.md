@@ -2,7 +2,7 @@
 
 Repositório de exercícios em Java da disciplina 3POB, com atividades de lógica de programação e programação orientada a objetos.
 
-As nove listas reúnem 45 exercícios, passando por entrada de dados, condicionais, repetições, vetores, matrizes, classes, encapsulamento, herança, polimorfismo, classes abstratas e interfaces.
+As dez listas reúnem 50 exercícios, passando por entrada de dados, condicionais, repetições, vetores, matrizes, classes, encapsulamento, herança, polimorfismo, classes abstratas, interfaces e tratamento de exceções.
 
 ## Listas
 
@@ -17,6 +17,7 @@ As nove listas reúnem 45 exercícios, passando por entrada de dados, condiciona
 | [Lista 07](Lista07/README.md) | Herança e polimorfismo | 5 |
 | [Lista 08](Lista08/README.md) | Sobrecarga de construtores e encapsulamento | 5 |
 | [Lista 09](Lista09/README.md) | Classes abstratas e interfaces | 5 |
+| [Lista 10](Lista10/README.md) | Tratamento de exceções | 5 |
 
 ## Organização
 
@@ -43,12 +44,13 @@ Cada lista tem um README com os temas e as instruções de execução. Cada exer
 │   │   └── Moto.java
 │   └── ...
 ├── Lista08/  (classes separadas por arquivo)
-└── Lista09/  (classes e interfaces separadas por arquivo)
+├── Lista09/  (classes e interfaces separadas por arquivo)
+└── Lista10/  (tratamento de exceções)
 ```
 
 O pacote identifica a lista e o exercício. Por exemplo, `Lista01.Exercicio01` corresponde à pasta `Lista01/Exercicio01`. Isso permite que cada programa tenha uma classe chamada `Main` sem conflito com os demais.
 
-Nas listas 07 a 09, cada classe ou interface fica em seu próprio arquivo Java para facilitar o estudo das relações entre os tipos.
+Nas listas 07 a 10, cada classe ou interface fica em seu próprio arquivo Java para facilitar o estudo das relações entre os tipos.
 
 ## Como executar
 
@@ -96,3 +98,4 @@ Também é possível abrir a raiz do repositório em uma IDE com suporte a Java 
 - A leitura e a exibição de números decimais seguem a configuração regional do Java.
 - Os arquivos `.class` gerados pela compilação são ignorados pelo `.gitignore`.
 - As regras de cálculo e aprovação pertencem a cada exercício. Na Lista02, média 7 aprova; na Lista06, o enunciado exige média maior que 7.
+
