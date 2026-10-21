@@ -1,4 +1,4 @@
-package Lista11.Exercicio04;
+package Lista12.Exercicio04;
 
 @FunctionalInterface
 public interface TransformadorTexto

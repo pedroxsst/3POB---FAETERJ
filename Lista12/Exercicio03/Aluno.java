@@ -1,4 +1,4 @@
-package Lista11.Exercicio03;
+package Lista12.Exercicio03;
 
 public class Aluno
 {

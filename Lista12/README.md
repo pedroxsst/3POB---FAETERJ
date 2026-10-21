@@ -1,4 +1,4 @@
-# Lista 11 — API Streams e interfaces funcionais
+# Lista 12 — API Streams e interfaces funcionais
 
 Cinco exercícios sobre processamento de listas com Streams, expressões lambda e interfaces funcionais. Os dados de exemplo já estão definidos nos programas; não é necessário digitar entradas.
 
@@ -21,8 +21,8 @@ Use **JDK 17 ou superior**. Os exercícios 1 e 4 usam `Stream.toList()`, dispon�
 Na raiz do repositório, compile e execute o exercício desejado:
 
 ```sh
-javac -encoding UTF-8 Lista11/Exercicio01/*.java
-java -cp . Lista11.Exercicio01.Main
+javac -encoding UTF-8 Lista12/Exercicio01/*.java
+java -cp . Lista12.Exercicio01.Main
 ```
 
 Troque `Exercicio01` por `Exercicio02`, `Exercicio03`, `Exercicio04` ou `Exercicio05` nos dois comandos. Compile todos os arquivos da pasta para incluir as classes auxiliares.

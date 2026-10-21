@@ -1,4 +1,4 @@
-package Lista11.Exercicio05;
+package Lista12.Exercicio05;
 
 import java.text.DecimalFormat;
 import java.util.Arrays;

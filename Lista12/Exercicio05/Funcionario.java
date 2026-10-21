@@ -1,4 +1,4 @@
-package Lista11.Exercicio05;
+package Lista12.Exercicio05;
 
 public class Funcionario
 {
