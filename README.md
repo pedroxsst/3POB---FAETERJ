@@ -2,7 +2,7 @@
 
 Repositório de exercícios em Java da disciplina 3POB, com atividades de lógica de programação e programação orientada a objetos.
 
-As 12 listas disponíveis reúnem 60 exercícios, passando por entrada de dados, condicionais, repetições, vetores, matrizes, classes, encapsulamento, herança, polimorfismo, classes abstratas, interfaces, tratamento de exceções, API Streams, interfaces funcionais e manipulação de arquivos.
+As 13 listas disponíveis reúnem 65 exercícios, passando por entrada de dados, condicionais, repetições, vetores, matrizes, classes, encapsulamento, herança, polimorfismo, classes abstratas, interfaces, tratamento de exceções, coleções, API Streams, interfaces funcionais e manipulação de arquivos.
 
 ## Listas
 
@@ -18,6 +18,7 @@ As 12 listas disponíveis reúnem 60 exercícios, passando por entrada de dados,
 | [Lista 08](Lista08/README.md) | Sobrecarga de construtores e encapsulamento | 5 |
 | [Lista 09](Lista09/README.md) | Classes abstratas e interfaces | 5 |
 | [Lista 10](Lista10/README.md) | Tratamento de exceções | 5 |
+| [Lista 11](Lista11/README.md) | Coleções em Java | 5 |
 | [Lista 12](Lista12/README.md) | API Streams e interfaces funcionais | 5 |
 | [Lista 13](Lista13/README.md) | Arquivos em Java | 5 |
 
@@ -48,13 +49,14 @@ Cada lista tem um README com os temas e as instruções de execução. Cada exer
 ├── Lista08/  (classes separadas por arquivo)
 ├── Lista09/  (classes e interfaces separadas por arquivo)
 ├── Lista10/  (tratamento de exceções)
+├── Lista11/  (ArrayList, HashSet e HashMap)
 ├── Lista12/  (API Streams e interfaces funcionais)
 └── Lista13/  (leitura e escrita de arquivos)
 ```
 
 O pacote identifica a lista e o exercício. Por exemplo, `Lista01.Exercicio01` corresponde à pasta `Lista01/Exercicio01`. Isso permite que cada programa tenha uma classe chamada `Main` sem conflito com os demais.
 
-Nas listas 07 a 10 e na Lista12, cada classe ou interface fica em seu próprio arquivo Java para facilitar o estudo das relações entre os tipos.
+Nas listas 07 a 12, cada classe ou interface fica em seu próprio arquivo Java para facilitar o estudo das relações entre os tipos.
 
 ## Como executar
 
