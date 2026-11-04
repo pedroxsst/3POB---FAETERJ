@@ -22,6 +22,10 @@ As 13 listas disponíveis reúnem 65 exercícios, passando por entrada de dados,
 | [Lista 12](Lista12/README.md) | API Streams e interfaces funcionais | 5 |
 | [Lista 13](Lista13/README.md) | Arquivos em Java | 5 |
 
+## Projeto: cadastro de pessoas
+
+O projeto [Cadastro de Pessoas](CadastroPessoas/README.md) reúne MVC, ArrayList, tratamento de exceções e persistência em CSV, com inclusão, alteração, exclusão e listagem pelo terminal. Consulte a pasta para as instruções de execução.
+
 ## Organização
 
 Cada lista tem um README com os temas e as instruções de execução. Cada exercício fica em uma pasta própria:

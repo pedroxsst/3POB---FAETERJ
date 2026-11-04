@@ -1,0 +1,30 @@
+name: Verificar cadastro de pessoas
+
+on:
+  push:
+    paths:
+      - 'CadastroPessoas/**'
+      - '.github/workflows/cadastro-pessoas.yml'
+  pull_request:
+    paths:
+      - 'CadastroPessoas/**'
+      - '.github/workflows/cadastro-pessoas.yml'
+
+permissions:
+  contents: read
+
+jobs:
+  verificar:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-java@v4
+        with:
+          distribution: temurin
+          java-version: '17'
+      - name: Compilar
+        run: |
+          mkdir -p build/cadastro
+          javac -encoding UTF-8 -Xlint:all -d build/cadastro CadastroPessoas/App.java CadastroPessoas/model/*.java CadastroPessoas/view/*.java CadastroPessoas/controller/*.java CadastroPessoas/arquivo/*.java
+      - name: Verificar operacoes e arquivos
+        run: python3 CadastroPessoas/testes/verificar.py build/cadastro
