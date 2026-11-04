@@ -17,7 +17,8 @@ with tempfile.TemporaryDirectory() as pasta:
 
     def executar(entrada):
         resultado = subprocess.run(
-            ["java", "-Dfile.encoding=UTF-8", "-cp", classes, "CadastroPessoas.App"],
+            ["java", "-Dfile.encoding=UTF-8", "-Dstdout.encoding=UTF-8",
+             "-Dstderr.encoding=UTF-8", "-cp", classes, "CadastroPessoas.App"],
             input=entrada, text=True, encoding="utf-8", capture_output=True,
             cwd=raiz, timeout=10,
         )

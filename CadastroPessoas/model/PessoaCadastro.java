@@ -2,7 +2,7 @@ package CadastroPessoas.model;
 
 import java.util.ArrayList;
 
-public class PessoaCadastro
+public final class PessoaCadastro
 {
     private ArrayList<Pessoa> pessoas;
 
