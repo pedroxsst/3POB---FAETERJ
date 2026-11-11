@@ -2,7 +2,7 @@
 
 Repositório de exercícios em Java da disciplina 3POB, com atividades de lógica de programação e programação orientada a objetos.
 
-As 13 listas disponíveis reúnem 65 exercícios, passando por entrada de dados, condicionais, repetições, vetores, matrizes, classes, encapsulamento, herança, polimorfismo, classes abstratas, interfaces, tratamento de exceções, coleções, API Streams, interfaces funcionais e manipulação de arquivos.
+As 14 listas disponíveis reúnem 70 exercícios, passando por entrada de dados, condicionais, repetições, vetores, matrizes, classes, encapsulamento, herança, polimorfismo, classes abstratas, interfaces, tratamento de exceções, coleções, API Streams, interfaces funcionais e manipulação de arquivos.
 
 ## Listas
 
@@ -21,6 +21,7 @@ As 13 listas disponíveis reúnem 65 exercícios, passando por entrada de dados,
 | [Lista 11](Lista11/README.md) | Coleções em Java | 5 |
 | [Lista 12](Lista12/README.md) | API Streams e interfaces funcionais | 5 |
 | [Lista 13](Lista13/README.md) | Arquivos em Java | 5 |
+| [Lista 14](Lista14/README.md) | Testes unitários com JUnit 5 e Mockito | 5 |
 
 ## Projeto: cadastro de pessoas
 
@@ -55,7 +56,8 @@ Cada lista tem um README com os temas e as instruções de execução. Cada exer
 ├── Lista10/  (tratamento de exceções)
 ├── Lista11/  (ArrayList, HashSet e HashMap)
 ├── Lista12/  (API Streams e interfaces funcionais)
-└── Lista13/  (leitura e escrita de arquivos)
+├── Lista13/  (leitura e escrita de arquivos)
+└── Lista14/  (JUnit 5, Mockito e Maven)
 ```
 
 O pacote identifica a lista e o exercício. Por exemplo, `Lista01.Exercicio01` corresponde à pasta `Lista01/Exercicio01`. Isso permite que cada programa tenha uma classe chamada `Main` sem conflito com os demais.
@@ -64,7 +66,7 @@ Nas listas 07 a 12, cada classe ou interface fica em seu próprio arquivo Java p
 
 ## Como executar
 
-É necessário ter o **JDK** instalado e os comandos `java` e `javac` disponíveis no terminal. Os exercícios usam apenas a biblioteca padrão do Java. Para as listas 12 e 13, use JDK 17 ou superior, pois algumas soluções utilizam `Stream.toList()`.
+É necessário ter o **JDK** instalado e os comandos `java` e `javac` disponíveis no terminal. As listas 01 a 13 usam apenas a biblioteca padrão do Java. A Lista 14 usa Maven, JUnit 5 e Mockito. Para as listas 12 e 13, use JDK 17 ou superior, pois algumas soluções utilizam `Stream.toList()`.
 
 1. Baixe o repositório ou faça o clone:
 
@@ -99,6 +101,8 @@ Nas listas 07 a 12, cada classe ou interface fica em seu próprio arquivo Java p
 
 Para escolher outro programa, ajuste a lista e o exercício nos comandos.
 
+Na **Lista 14**, execute `cd Lista14 && mvn test` com Maven para rodar os testes automatizados.
+
 Também é possível abrir a raiz do repositório em uma IDE com suporte a Java e executar o método main do exercício escolhido.
 
 ## Notas de estudo
@@ -108,4 +112,3 @@ Também é possível abrir a raiz do repositório em uma IDE com suporte a Java 
 - A leitura e a exibição de números decimais seguem a configuração regional do Java.
 - Os arquivos `.class` gerados pela compilação são ignorados pelo `.gitignore`.
 - As regras de cálculo e aprovação pertencem a cada exercício. Na Lista02, média 7 aprova; na Lista06, o enunciado exige média maior que 7.
-
